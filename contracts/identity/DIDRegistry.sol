@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title DIDRegistry
  * @dev add decentralized identity registry
  * @custom:security-contact security@votingdao.org
- * @custom:created 2026-05-08 22:07:37
+ * @custom:created 2026-05-08 22:07:41
  */
 contract DIDRegistry is ERC20, AccessControl, ReentrancyGuard {
 
