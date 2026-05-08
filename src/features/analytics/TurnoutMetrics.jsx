@@ -1,7 +1,7 @@
 /**
  * TurnoutMetrics.jsx
  * implement voter turnout tracking
- * Created: 2026-05-08 22:07:35
+ * Created: 2026-05-08 22:07:37
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -82,7 +82,7 @@ export const TurnoutMetrics = () => {
         )}
       </div>
       <div className="metadata">
-        <small>Last updated: 2026-05-08 22:07:35</small>
+        <small>Last updated: 2026-05-08 22:07:37</small>
       </div>
     </div>
   );
