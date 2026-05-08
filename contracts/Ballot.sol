@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 
 /**
  * @title Ballot
- * @dev fix integer overflow vulnerability
- * @custom:created 2026-05-08 21:59:39
+ * @dev fix vote counting overflow issue
+ * @custom:created 2026-05-08 21:59:41
  */
 contract Ballot {
 
@@ -26,7 +26,7 @@ contract Ballot {
     }
 
     /**
-     * @dev fix integer overflow vulnerability
+     * @dev fix vote counting overflow issue
      */
     function execute() public onlyAuthorized {
         totalCount++;
