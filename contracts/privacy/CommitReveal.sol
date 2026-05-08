@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title CommitReveal
  * @dev implement commit-reveal voting scheme
  * @custom:security-contact security@votingdao.org
- * @custom:created 2026-05-08 22:07:31
+ * @custom:created 2026-05-08 22:07:33
  */
 contract CommitReveal is ERC20, AccessControl, ReentrancyGuard {
 
