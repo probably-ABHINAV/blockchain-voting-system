@@ -1,0 +1,27 @@
+# add deployment workflow
+# Created: 2026-05-08 21:59:38
+
+name: deploy
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup
+      run: |
+        echo "Setting up environment"
+        echo "Description: add deployment workflow"
+
+    - name: Execute
+      run: |
+        echo "Executing workflow"
+        echo "Timestamp: 2026-05-08 21:59:38"
