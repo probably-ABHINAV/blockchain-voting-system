@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title VerifiableCredentials
  * @dev implement verifiable credentials
  * @custom:security-contact security@votingdao.org
- * @custom:created 2026-05-08 22:07:33
+ * @custom:created 2026-05-08 22:07:35
  */
 contract VerifiableCredentials is ERC20, AccessControl, ReentrancyGuard {
 
