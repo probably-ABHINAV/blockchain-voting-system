@@ -1,7 +1,7 @@
 /**
  * subgraph.js
  * integrate The Graph for indexing
- * Created: 2026-05-08 22:07:30
+ * Created: 2026-05-08 22:07:40
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -82,7 +82,7 @@ export const subgraph = () => {
         )}
       </div>
       <div className="metadata">
-        <small>Last updated: 2026-05-08 22:07:30</small>
+        <small>Last updated: 2026-05-08 22:07:40</small>
       </div>
     </div>
   );
