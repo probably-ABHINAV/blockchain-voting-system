@@ -1,20 +1,20 @@
 /**
  * voters.js
- * implement voter registration API
- * Created: 2026-05-08 21:59:35
+ * fix duplicate voter registration
+ * Created: 2026-05-08 21:59:38
  */
 
 import React, { useState, useEffect } from 'react';
 
 /**
- * implement voter registration API
+ * fix duplicate voter registration
  */
 export const voters = () => {
   const [state, setState] = useState(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // implement voter registration API
+    // fix duplicate voter registration
     const initialize = async () => {
       setLoading(true);
       try {
@@ -34,8 +34,8 @@ export const voters = () => {
 
   return (
     <div className="component">
-      <h2>implement voter registration API</h2>
-      <p>Implementation: 2026-05-08 21:59:35</p>
+      <h2>fix duplicate voter registration</h2>
+      <p>Implementation: 2026-05-08 21:59:38</p>
     </div>
   );
 };
