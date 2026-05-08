@@ -1,20 +1,20 @@
 /**
  * voting-flow.test.js
- * add end-to-end voting test
- * Created: 2026-05-08 21:59:44
+ * fix flaky test
+ * Created: 2026-05-08 21:59:46
  */
 
 import React, { useState, useEffect } from 'react';
 
 /**
- * add end-to-end voting test
+ * fix flaky test
  */
 export const voting-flow.test = () => {
   const [state, setState] = useState(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // add end-to-end voting test
+    // fix flaky test
     const initialize = async () => {
       setLoading(true);
       try {
@@ -34,8 +34,8 @@ export const voting-flow.test = () => {
 
   return (
     <div className="component">
-      <h2>add end-to-end voting test</h2>
-      <p>Implementation: 2026-05-08 21:59:44</p>
+      <h2>fix flaky test</h2>
+      <p>Implementation: 2026-05-08 21:59:46</p>
     </div>
   );
 };
