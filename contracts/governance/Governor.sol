@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title Governor
  * @dev create on-chain governance system
  * @custom:security-contact security@votingdao.org
- * @custom:created 2026-05-08 22:07:41
+ * @custom:created 2026-05-08 22:07:43
  */
 contract Governor is ERC20, AccessControl, ReentrancyGuard {
 
