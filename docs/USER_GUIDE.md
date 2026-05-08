@@ -1,6 +1,6 @@
 # User Guide
 
-**Created**: 2026-05-08 21:59:44  
+**Created**: 2026-05-08 21:59:48  
 **Purpose**: create user guide
 
 ## Overview
@@ -30,7 +30,7 @@ This document provides comprehensive information about the blockchain voting sys
 const component = {
   name: 'USER_GUIDE.md',
   description: 'create user guide',
-  timestamp: '2026-05-08 21:59:44'
+  timestamp: '2026-05-08 21:59:48'
 };
 ```
 
@@ -41,4 +41,4 @@ const component = {
 - [Solidity Documentation](https://docs.soliditylang.org/)
 
 ---
-*Last updated: 2026-05-08 21:59:44*
+*Last updated: 2026-05-08 21:59:48*
