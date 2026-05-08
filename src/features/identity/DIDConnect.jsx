@@ -1,7 +1,7 @@
 /**
  * DIDConnect.jsx
  * add DID wallet connection
- * Created: 2026-05-08 22:07:32
+ * Created: 2026-05-08 22:07:36
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -82,7 +82,7 @@ export const DIDConnect = () => {
         )}
       </div>
       <div className="metadata">
-        <small>Last updated: 2026-05-08 22:07:32</small>
+        <small>Last updated: 2026-05-08 22:07:36</small>
       </div>
     </div>
   );
