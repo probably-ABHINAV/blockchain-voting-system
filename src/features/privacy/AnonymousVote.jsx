@@ -1,7 +1,7 @@
 /**
  * AnonymousVote.jsx
  * implement anonymous voting UI
- * Created: 2026-05-08 22:07:30
+ * Created: 2026-05-08 22:07:35
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -82,7 +82,7 @@ export const AnonymousVote = () => {
         )}
       </div>
       <div className="metadata">
-        <small>Last updated: 2026-05-08 22:07:30</small>
+        <small>Last updated: 2026-05-08 22:07:35</small>
       </div>
     </div>
   );
