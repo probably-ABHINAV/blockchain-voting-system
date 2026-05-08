@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title WeightedVoting
  * @dev implement token-weighted voting
  * @custom:security-contact security@votingdao.org
- * @custom:created 2026-05-08 22:07:32
+ * @custom:created 2026-05-08 22:07:41
  */
 contract WeightedVoting is ERC20, AccessControl, ReentrancyGuard {
 
