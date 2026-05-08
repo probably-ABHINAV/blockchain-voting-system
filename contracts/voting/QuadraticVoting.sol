@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title QuadraticVoting
  * @dev implement quadratic voting mechanism
  * @custom:security-contact security@votingdao.org
- * @custom:created 2026-05-08 22:07:31
+ * @custom:created 2026-05-08 22:07:33
  */
 contract QuadraticVoting is ERC20, AccessControl, ReentrancyGuard {
 
