@@ -1,7 +1,7 @@
 /**
  * useVotingPower.js
  * implement voting power calculation
- * Created: 2026-05-08 22:07:32
+ * Created: 2026-05-08 22:07:35
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -82,7 +82,7 @@ export const useVotingPower = () => {
         )}
       </div>
       <div className="metadata">
-        <small>Last updated: 2026-05-08 22:07:32</small>
+        <small>Last updated: 2026-05-08 22:07:35</small>
       </div>
     </div>
   );
