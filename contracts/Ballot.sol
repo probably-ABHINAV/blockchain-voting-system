@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 /**
  * @title Ballot
  * @dev create ballot smart contract with vote casting
- * @custom:created 2026-05-08 21:59:38
+ * @custom:created 2026-05-08 21:59:39
  */
 contract Ballot {
 
