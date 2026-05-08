@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 
 /**
  * @title Ballot
- * @dev fix vote counting overflow issue
- * @custom:created 2026-05-08 21:59:41
+ * @dev create ballot smart contract with vote casting
+ * @custom:created 2026-05-08 21:59:47
  */
 contract Ballot {
 
@@ -26,7 +26,7 @@ contract Ballot {
     }
 
     /**
-     * @dev fix vote counting overflow issue
+     * @dev create ballot smart contract with vote casting
      */
     function execute() public onlyAuthorized {
         totalCount++;
