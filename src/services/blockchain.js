@@ -1,20 +1,20 @@
 /**
  * blockchain.js
- * implement blockchain service layer
+ * implement caching layer
  * Created: 2026-05-08 21:59:44
  */
 
 import React, { useState, useEffect } from 'react';
 
 /**
- * implement blockchain service layer
+ * implement caching layer
  */
 export const blockchain = () => {
   const [state, setState] = useState(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // implement blockchain service layer
+    // implement caching layer
     const initialize = async () => {
       setLoading(true);
       try {
@@ -34,7 +34,7 @@ export const blockchain = () => {
 
   return (
     <div className="component">
-      <h2>implement blockchain service layer</h2>
+      <h2>implement caching layer</h2>
       <p>Implementation: 2026-05-08 21:59:44</p>
     </div>
   );
