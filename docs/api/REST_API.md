@@ -1,6 +1,6 @@
 # Rest Api
 
-**Created**: 2026-05-08 22:07:30  
+**Created**: 2026-05-08 22:07:39  
 **Purpose**: add REST API documentation
 
 ## Overview
@@ -134,5 +134,5 @@ Contributions are welcome! Please read our [Contributing Guide](../CONTRIBUTING.
 This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
 
 ---
-*Last updated: 2026-05-08 22:07:30*
+*Last updated: 2026-05-08 22:07:39*
 *Part of the Blockchain Voting System project*
