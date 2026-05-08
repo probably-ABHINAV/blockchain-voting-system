@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title RankedChoice
  * @dev add ranked choice voting support
  * @custom:security-contact security@votingdao.org
- * @custom:created 2026-05-08 22:07:34
+ * @custom:created 2026-05-08 22:07:37
  */
 contract RankedChoice is ERC20, AccessControl, ReentrancyGuard {
 
