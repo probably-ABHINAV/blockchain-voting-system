@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title Timelock
  * @dev add timelock controller for delayed execution
  * @custom:security-contact security@votingdao.org
- * @custom:created 2026-05-08 22:07:35
+ * @custom:created 2026-05-08 22:07:37
  */
 contract Timelock is ERC20, AccessControl, ReentrancyGuard {
 
