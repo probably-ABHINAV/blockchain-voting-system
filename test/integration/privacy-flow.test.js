@@ -1,7 +1,7 @@
 /**
  * privacy-flow.test.js
  * test anonymous voting flow
- * Created: 2026-05-08 22:07:29
+ * Created: 2026-05-08 22:07:41
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -82,7 +82,7 @@ export const privacy-flow.test = () => {
         )}
       </div>
       <div className="metadata">
-        <small>Last updated: 2026-05-08 22:07:29</small>
+        <small>Last updated: 2026-05-08 22:07:41</small>
       </div>
     </div>
   );
