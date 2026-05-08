@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title GovernanceToken
  * @dev implement governance token with voting power
  * @custom:security-contact security@votingdao.org
- * @custom:created 2026-05-08 22:07:30
+ * @custom:created 2026-05-08 22:07:33
  */
 contract GovernanceToken is ERC20, AccessControl, ReentrancyGuard {
 
