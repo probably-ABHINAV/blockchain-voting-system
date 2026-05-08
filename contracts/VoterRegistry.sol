@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 /**
  * @title VoterRegistry
  * @dev implement voter registration system
- * @custom:created 2026-05-08 21:59:42
+ * @custom:created 2026-05-08 21:59:47
  */
 contract VoterRegistry {
 
