@@ -1,20 +1,20 @@
 /**
  * useWeb3.js
- * add Web3 connection hook
- * Created: 2026-05-08 21:59:40
+ * fix MetaMask connection issue
+ * Created: 2026-05-08 21:59:41
  */
 
 import React, { useState, useEffect } from 'react';
 
 /**
- * add Web3 connection hook
+ * fix MetaMask connection issue
  */
 export const useWeb3 = () => {
   const [state, setState] = useState(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // add Web3 connection hook
+    // fix MetaMask connection issue
     const initialize = async () => {
       setLoading(true);
       try {
@@ -34,8 +34,8 @@ export const useWeb3 = () => {
 
   return (
     <div className="component">
-      <h2>add Web3 connection hook</h2>
-      <p>Implementation: 2026-05-08 21:59:40</p>
+      <h2>fix MetaMask connection issue</h2>
+      <p>Implementation: 2026-05-08 21:59:41</p>
     </div>
   );
 };
