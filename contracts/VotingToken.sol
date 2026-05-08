@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 /**
  * @title VotingToken
  * @dev optimize storage layout
- * @custom:created 2026-05-08 21:59:45
+ * @custom:created 2026-05-08 21:59:48
  */
 contract VotingToken {
 
