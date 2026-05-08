@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 
 /**
  * @title VotingToken
- * @dev optimize gas usage in token transfers
- * @custom:created 2026-05-08 21:59:42
+ * @dev optimize storage layout
+ * @custom:created 2026-05-08 21:59:45
  */
 contract VotingToken {
 
@@ -26,7 +26,7 @@ contract VotingToken {
     }
 
     /**
-     * @dev optimize gas usage in token transfers
+     * @dev optimize storage layout
      */
     function execute() public onlyAuthorized {
         totalCount++;
