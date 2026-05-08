@@ -1,6 +1,6 @@
 # Api
 
-**Created**: 2026-05-08 21:59:36  
+**Created**: 2026-05-08 21:59:47  
 **Purpose**: document REST API endpoints
 
 ## Overview
@@ -30,7 +30,7 @@ This document provides comprehensive information about the blockchain voting sys
 const component = {
   name: 'API.md',
   description: 'document REST API endpoints',
-  timestamp: '2026-05-08 21:59:36'
+  timestamp: '2026-05-08 21:59:47'
 };
 ```
 
@@ -41,4 +41,4 @@ const component = {
 - [Solidity Documentation](https://docs.soliditylang.org/)
 
 ---
-*Last updated: 2026-05-08 21:59:36*
+*Last updated: 2026-05-08 21:59:47*
