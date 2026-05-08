@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 /**
  * @title VotingToken
- * @dev implement ERC20 voting token contract
+ * @dev optimize gas usage in token transfers
  * @custom:created 2026-05-08 21:59:41
  */
 contract VotingToken {
@@ -26,7 +26,7 @@ contract VotingToken {
     }
 
     /**
-     * @dev implement ERC20 voting token contract
+     * @dev optimize gas usage in token transfers
      */
     function execute() public onlyAuthorized {
         totalCount++;
