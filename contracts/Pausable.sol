@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 /**
  * @title Pausable
  * @dev add emergency pause functionality
- * @custom:created 2026-05-08 21:59:46
+ * @custom:created 2026-05-08 21:59:49
  */
 contract Pausable {
 
