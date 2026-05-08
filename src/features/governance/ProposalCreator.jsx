@@ -1,7 +1,7 @@
 /**
  * ProposalCreator.jsx
  * create governance proposal interface
- * Created: 2026-05-08 22:07:31
+ * Created: 2026-05-08 22:07:37
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -82,7 +82,7 @@ export const ProposalCreator = () => {
         )}
       </div>
       <div className="metadata">
-        <small>Last updated: 2026-05-08 22:07:31</small>
+        <small>Last updated: 2026-05-08 22:07:37</small>
       </div>
     </div>
   );
