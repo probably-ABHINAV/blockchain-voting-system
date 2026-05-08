@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 /**
  * @title Ballot
  * @dev fix vote counting overflow issue
- * @custom:created 2026-05-08 21:59:36
+ * @custom:created 2026-05-08 21:59:38
  */
 contract Ballot {
 
