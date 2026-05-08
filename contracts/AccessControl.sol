@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 
 /**
  * @title AccessControl
- * @dev implement role-based access control
- * @custom:created 2026-05-08 21:59:43
+ * @dev fix privilege escalation bug
+ * @custom:created 2026-05-08 21:59:46
  */
 contract AccessControl {
 
@@ -26,7 +26,7 @@ contract AccessControl {
     }
 
     /**
-     * @dev implement role-based access control
+     * @dev fix privilege escalation bug
      */
     function execute() public onlyAuthorized {
         totalCount++;
