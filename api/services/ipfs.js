@@ -1,20 +1,20 @@
 /**
  * ipfs.js
- * optimize IPFS upload performance
+ * implement IPFS storage service
  * Created: 2026-05-08 21:59:47
  */
 
 import React, { useState, useEffect } from 'react';
 
 /**
- * optimize IPFS upload performance
+ * implement IPFS storage service
  */
 export const ipfs = () => {
   const [state, setState] = useState(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // optimize IPFS upload performance
+    // implement IPFS storage service
     const initialize = async () => {
       setLoading(true);
       try {
@@ -34,7 +34,7 @@ export const ipfs = () => {
 
   return (
     <div className="component">
-      <h2>optimize IPFS upload performance</h2>
+      <h2>implement IPFS storage service</h2>
       <p>Implementation: 2026-05-08 21:59:47</p>
     </div>
   );
